@@ -484,9 +484,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Sidewinder X1
-  #define DEFAULT_Kp 14.58
-  #define DEFAULT_Ki 1.14
-  #define DEFAULT_Kd 46.57
+  #define DEFAULT_Kp 12.68
+  #define DEFAULT_Ki 0.92
+  #define DEFAULT_Kd 43.93
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -517,7 +517,7 @@
  * heater. If your configuration is significantly different than this and you don't understand
  * the issues involved, don't use bed PID until someone else verifies that your hardware works.
  */
-//#define PIDTEMPBED
+#define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 
@@ -534,9 +534,9 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   // Sidewinder X1
-  #define DEFAULT_bedKp 244.21
-  #define DEFAULT_bedKi 45.87
-  #define DEFAULT_bedKd 325.08
+  #define DEFAULT_bedKp 27.81
+  #define DEFAULT_bedKi 1.96
+  #define DEFAULT_bedKd 262.71
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
