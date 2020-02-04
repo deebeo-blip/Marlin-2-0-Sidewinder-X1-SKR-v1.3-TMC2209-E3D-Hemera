@@ -483,10 +483,10 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Sidewinder X1
-  #define DEFAULT_Kp 13.48
-  #define DEFAULT_Ki 0.97
-  #define DEFAULT_Kd 46.62
+  // Sidewinder X1 with Hemera
+  #define DEFAULT_Kp 23.40
+  #define DEFAULT_Ki 1.68
+  #define DEFAULT_Kd 81.66
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -733,7 +733,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.121, 80.121, 399.778, 409 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.121, 80.121, 399.778, 394.454 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1461,7 +1461,7 @@
 
 // Preheat Constants
 #define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 180
+#define PREHEAT_1_TEMP_HOTEND 200
 #define PREHEAT_1_TEMP_BED     70
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
